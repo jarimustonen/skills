@@ -57,10 +57,15 @@ when it fails" is knowledge. "Step 3: verify that the command succeeded" is
 control, and once the agent has the knowledge the step is unnecessary.
 
 Much control is knowledge in disguise. Behind most rules there was once a reason:
-something broke, someone was annoyed, something was lost. Recover the reason and
-write that down. A prohibition with its reason is something the agent can apply
-intelligently, including in cases the rule did not cover. If no reason can be
-found and none can be imagined, the rule was probably noise.
+something broke, someone was annoyed, something was lost. Recover the reason. If
+it is something about this environment the agent could not have known, write it
+down, preferably as how things are and how work is done here, so that the rule
+follows from it and the agent can apply it to cases the rule did not cover. If it
+is what any capable agent already understands, the sentence has nothing to carry
+and goes; a gentler wording or an obvious reason attached would still be a rule.
+If no reason can be found, the rule was probably noise. A rule that only manages
+a transition or an old leftover is often better retired by fixing the
+environment once; suggest that to the user.
 
 The opposite failure is vagueness. "Use good judgment" gives judgment nothing to
 work with. Understanding is concrete: reasons, consequences, what is at stake,
@@ -69,9 +74,9 @@ about the situation than before, you have removed the wrong things.
 
 Some precision is legitimate and stays. An interface that another program or
 agent depends on has to be exact. An order of operations that matters for a
-non-obvious reason is worth stating with that reason. A few things are dangerous
-enough to state as plain limits. These should be rare, and each should say what
-would be lost.
+non-obvious reason is worth stating with that reason. A few dangers deserve a
+plain limit. Keep them rare, and say what is particular here, not how a tool
+every agent knows behaves.
 
 ## How instructions should treat autonomy
 
@@ -88,8 +93,8 @@ makes it, says what it chose, and continues. Whether an action can be undone
 matters only in proportion to what would be lost. Deleting something disposable
 needs no permission. A small change to something precious may.
 
-An instruction therefore serves autonomy best by describing the stakes: what in
-this environment is valuable, what is disposable, and what the user has opinions
+An instruction therefore serves autonomy best by describing the stakes where they
+would change a decision: what in this environment is valuable, what is disposable, and what the user has opinions
 about. When you find permission gates, replace them with that description. If the
 original does not reveal the stakes, look for them in the surroundings before you
 consider asking.
@@ -102,7 +107,9 @@ instruction repeats what they already say. Then write the instruction you would
 want to receive if the task were yours.
 
 Expect the result to be much shorter. Prefer prose to lists when the ideas depend
-on each other. Avoid emphasis by capitals and words like "must" and "never"
+on each other. Favour saying how things are done over saying what not to do,
+while keeping a prohibition where it is the clearest way to say something. Avoid
+emphasis by capitals and words like "must" and "never"
 outside the rare real limit. They signal distrust, and a reader who meets them
 everywhere learns to ignore them.
 
