@@ -43,8 +43,9 @@ stated with its reason.
 may be good but are not decisions. One that is worth keeping becomes a
 sentence saying what is proposed and where the detail lives.
 
-**Steam** goes: hedges, denials of things nobody suggested, restatements, the
-record of what the document itself did not do.
+**Steam** goes: hedges, denials of things nobody suggested, restatements,
+explanations of what any capable reader already knows, the record of what the
+document itself did not do.
 
 The sources are wider than what the document cites. The approval may be in
 another issue, the file's git history shows who wrote which passage and when,
@@ -82,7 +83,8 @@ later decision cancelled an earlier requirement. Everything else you decide.
 It opens with the problem as someone experienced it, then states the decision
 and its leading idea, with reasons beside the choices they explain. After
 reading the decision, someone should be able to say what was decided without
-having learned the design.
+having learned the design. A decision reads best as how things are and how
+they are done; keep a prohibition where it is the clearest way to say it.
 
 A document does one job. An interface belongs in the specification, a test
 plan in the implementing issue, a finding or blocker where the repository
@@ -92,7 +94,8 @@ document gets the corrected statement, not the story of the correction.
 A decision record should come out at half its length or less. An issue keeps
 its decision entries and the person's words verbatim, so it becomes clearer
 rather than shorter: the body agrees with the decisions, and acceptance
-describes an outcome the person would recognise, not a mechanism. Use the repository’s issue tooling and preserve its decision history when editing one.
+describes an outcome the person would recognise, not a mechanism. Use the
+repository's issue tooling and preserve its decision history when editing one.
 
 ## Finishing
 
