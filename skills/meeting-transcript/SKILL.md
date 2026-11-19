@@ -66,8 +66,7 @@ meeting. The test is whether the passage is about the meeting's subject. Pay
 discussed in a meeting about that person's employment is the subject; the same
 figure mentioned in passing at a board meeting is not. When you cannot tell,
 include the passage in the one batch of questions to the user (below)
-instead of
-guessing.
+instead of guessing.
 
 In the raw artifact, replace each removed passage with a short bracketed marker
 in the transcript's language that says what kind of thing was removed and
